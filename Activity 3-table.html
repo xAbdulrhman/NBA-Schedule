@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 3</title>
+    <link rel="stylesheet" href="Activity 3-tableStyle.css">
+</head>
+
+<body>
+
+    <h2>NBA Schedule for Week 19 (Feb 21 - Feb 27) 2022</h2>
+    <input type="text" id="searchBox" onkeyup="filterByTeam()" placeholder="Search for team" title="Type in a team.">
+
+    <select id="MySelection" class="select_broadcasters">
+        <option onclick="filterByBroadcast()" selected="" value="all">All Broadcasters</option>
+        <option onclick="filterByBroadcast()" value="beIN">beIN Sports</option>
+        <option onclick="filterByBroadcast()" value="NBATV_beIN_MENA">NBA TV</option>
+        <option onclick="filterByBroadcast()" value="LP">League Pass</option>
+    </select>
+
+    <h3>Thursday, February 24</h3>
+    <table class="nbaSchedule">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Teams</th>
+                <th>Broadcaster</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3:00 AM AST</td>
+                <td>Cleveland Cavaliers @ Detroit Pistons</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:30 AM AST</td>
+                <td>Boston Celtics @ Brooklyn Nets</td>
+                <td>beIN Sports</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Atlanta Hawks @ Chicago Bulls</td>
+                <td>NBA TV</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Memphis Grizzlies @ Minnesota Timberwolves</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Phoenix Suns @ Oklahoma City Thunder</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>6:00 AM AST</td>
+                <td>Golden State Warriors @ Portland Trail Blazers</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>6:00 AM AST</td>
+                <td>Denver Nuggets @ Sacramento Kings</td>
+                <td>NBA League Pass</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Friday, February 25</h3>
+    <table class="nbaSchedule">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Teams</th>
+                <th>Broadcaster</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3:00 AM AST</td>
+                <td>Toronto Raptors @ Charlotte Hornets</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:00 AM AST</td>
+                <td>Oklahoma City Thunder @ Indiana Pacers</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:00 AM AST</td>
+                <td>Houston Rockets @ Orlando Magic</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:00 AM AST</td>
+                <td>San Antonio Spurs @ Washington Wizards</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:30 AM AST</td>
+                <td>Miami Heat @ New York Knicks</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Philadelphia 76ers @ Minnesota Timberwolves</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>5:00 AM AST</td>
+                <td>New Orleans Pelicans @ Phoenix Suns</td>
+                <td>NBA TV</td>
+            </tr>
+            <tr>
+                <td>5:00 AM AST</td>
+                <td>Dallas Mavericks @ Utah Jazz</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>6:00 AM AST</td>
+                <td>LA Clippers @ Los Angeles Lakers</td>
+                <td>beIN Sports</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h3>Saturday, February 26</h3>
+    <table class="nbaSchedule">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Teams</th>
+                <th>Broadcaster</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7:00 PM AST</td>
+                <td>Boston Celtics @ Detroit Pistons</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>3:30 AM AST</td>
+                <td>Toronto Raptors @ Atlanta Hawks </td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Washington Wizards @ Cleveland Cavaliers</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>San Antonio Spurs @ Miami Heat</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:00 AM AST</td>
+                <td>Memphis Grizzlies @ Chicago Bulls</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>4:30 AM AST</td>
+                <td>Brooklyn Nets @ Milwaukee Bucks</td>
+                <td>NBA League Pass</td>
+            </tr>
+            <tr>
+                <td>5:00 AM AST</td>
+                <td>Sacramento Kings @ Denver Nuggets</td>
+                <td>NBA League Pass</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="Activity 3-filter.js"></script>
+
+</body>
+
+</html>

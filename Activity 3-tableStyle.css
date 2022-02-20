@@ -1,0 +1,38 @@
+#searchBox,
+select {
+    width: 20%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+caption {
+    font-size: 20px;
+    padding: 20px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table td,
+thead th {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table tr:nth-child(even) {
+    background-color: #0f6db4;
+    color: #ffff;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #032f4f;
+    color: white;
+}
